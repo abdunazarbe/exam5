@@ -13,7 +13,7 @@ const index = () => {
 
                     <h3 className='font-normal text-center md:mr-[80px] font-[Inter]  mb-5  text-xl text-[#4B5563 ]'>Some of the noteworthy projects I have built:</h3>
                     <div className="past  md:px-[130px] py-[20px] md:block ">
-                        <div className="uzumm max-w-full block  bg-[#FFFFFF] r md:p-8 md:flex md:gap-x-[130px]  flex-row  h-fit    gap-x-12 rounded-xl border-2">
+                        <div className="uzumm max-w-full block  md:mt-8 bg-[#FFFFFF] r md:p-8 md:flex md:gap-x-[130px]  flex-row  h-fit    gap-x-12 rounded-xl border-2">
                             <div className="img bg-[#F3F4F6] pt-24 p-3 ">
                                 <img src={img} alt="" />
                             </div>
@@ -70,7 +70,7 @@ const index = () => {
 
                         </div>
 
-                        <div className="uzumnasiyauzumm mt-5 max-w-full block  bg-[#FFFFFF] r md:p-8 md:flex md:gap-x-[130px]  flex-row  h-fit    gap-x-12 rounded-xl border-2">
+                        <div className="uzumnasiyauzumm mt-5 md:mt-8 max-w-full block  bg-[#FFFFFF] r md:p-8 md:flex md:gap-x-[130px]  flex-row  h-fit    gap-x-12 rounded-xl border-2">
 
                             <div className="uzumnasiya_texts  mt-4 pt-2 flex-row  md:gap-y-1 md:pt-[15px] md:px-12 block  ">
                                 <h2 className='text-xl text-[#111827]  font-[Inter] font-bold mt-[30px] mb-3'>Uzum nasiya </h2>

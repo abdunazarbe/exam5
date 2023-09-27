@@ -46,7 +46,7 @@ const Footer = () => {
                 </div>
 
 
-                <div className="items-center w-full flex mt-2 md:mt-6 bg-gray-50 px-2 py-6 md:pl-[400px] gap-x-2 ">
+                <div className="items-center w-full flex mt-2 md:mt-6 bg-gray-50 px-2 py-6 md:pl-[100px] gap-x-2 ">
                     <img src={Csc} alt=""/>
                     <p className="font-normal    text-center   font-[Inter]    text-base text-gray-600">
                         2023 | Designed and coded with ❤️️ by NAJOT TA’LIM
