@@ -1,0 +1,42 @@
+#intro
+{
+  padding: 96px, 80px, 96px, 80px;
+}
+
+.vv
+{
+  position: relative;
+  width: 300px;
+  /* Adjust the width and height to match your images */
+  height: 200px;
+}
+
+.top-image
+{
+  width: 280px;
+  height: 320px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+.bottom-image
+{
+  width: 280px;
+  height: 320px;
+  background: #E5E7EB;
+  object-fit: cover;
+  position: absolute;
+  top: 15%;
+  left: 15%;
+  //left: 190px;
+  transition: all 0.3s ease;
+
+  &:hover
+  {
+    top: -15%;
+    right: 15%;
+  }
+}
